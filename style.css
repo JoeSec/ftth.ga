@@ -1,0 +1,113 @@
+@font-face {
+font-family: "Nasser Thin";
+src: url("Nasser-Thin.otf");
+src:
+url("Nasser-Thin.otf") format("opentype"),
+}
+
+@font-face {
+font-family: "font";
+src: url("font.ttf");
+src:
+url("Nasser-Thin.otf") format("opentype"),
+}
+
+body {
+  background: #DDDDDD;
+  font-family: 'font';
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+header {
+  font-family: 'Nasser Thin';
+  background-color: #1d7693;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#licenses {
+  border-top: 1px solid #000;
+  /*width: 800px;*/
+  margin: 0 auto;
+}
+
+table {
+  /*width: 800px;*/
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  border: 2px solid #1d7693;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #1d7693;
+  color: white;
+  padding: 5px;
+  font-size: 28px;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+
+td {
+  padding: 2px;
+  font-size: 25px;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#pager {
+  margin: 10px auto 10px auto;
+  max-width: 273.7px;
+}
+
+.page {
+  margin-left: 5px;
+  background-color: #1d7693;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid #1d7693;
+  font-weight: bold;
+}
+.page:hover {
+  background-color: rgba(29, 118, 147, 0.7);
+}
+.pageSelected {
+  background-color: rgba(29, 118, 147, 0.7);
+  font-weight: bold;
+}
+
+#lastupdated {
+  font-family: 'aerial';
+  text-align: center;
+  margin: 0 auto;
+}
+
+#copyright {
+  font-family: 'aerial';
+  font-size: 20px;
+  max-width: 400px;
+  margin: 15px auto 10px auto;
+  text-align: center;
+}
