@@ -1,20 +1,14 @@
 @font-face {
-font-family: "Nasser Thin";
-src: url("Nasser-Thin.otf");
-src:
-url("Nasser-Thin.otf") format("opentype"),
+font-family: "Boutros";
+src: url("Boutros.ttf");
 }
 
-@font-face {
-font-family: "font";
-src: url("font.ttf");
-src:
-url("Nasser-Thin.otf") format("opentype"),
-}
 
 body {
   background: #DDDDDD;
-  font-family: 'font';
+  font-family: 'Boutros';
+';
+
 }
 
 #wrapper {
@@ -26,8 +20,8 @@ body {
 }
 
 header {
-  font-family: 'Nasser Thin';
-  background-color: #1d7693;
+  font-family: 'Boutros';
+  background-color: #96bbc7;
   color: white;
   font-weight: bold;
   font-size: 25px;
@@ -44,31 +38,43 @@ header {
   margin: 0 auto;
 }
 
+#license .supervisor{
+	color: red;
+}
+
 table {
   /*width: 800px;*/
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 10px;
-  border-collapse: collapse;
-  border: 2px solid #1d7693;
-  border-radius: 5px;
+  margin-bottom: 17px;
+  border-collapse: separate;
+  border: 0.09em solid #a5a5a5;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+	-moz-box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+	box-shadow:0px 0px 12px rgba(0, 0, 0, 0.18);
+
 }
 
 th {
-  background-color: #1d7693;
+  background-color: #96bbc7;
   color: white;
   padding: 5px;
-  font-size: 28px;
+  font-size: 18px;
   text-align: center;
 }
 
 tr {
   text-align: center;
+
+
 }
 
 td {
   padding: 2px;
-  font-size: 25px;
+  font-size: 18px;
   width: 400px;
 }
 
@@ -88,14 +94,14 @@ a {
   color: white;
   border-radius: 2px;
   border: 1px solid #1d7693;
-  font-weight: bold;
+  font-weight: light;
 }
 .page:hover {
   background-color: rgba(29, 118, 147, 0.7);
 }
 .pageSelected {
   background-color: rgba(29, 118, 147, 0.7);
-  font-weight: bold;
+  font-weight: light;
 }
 
 #lastupdated {

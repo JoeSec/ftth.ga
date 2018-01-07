@@ -96,24 +96,49 @@ window.onload = function() {
       var firstRowData1 = document.createElement("td");
       firstRowData1.innerHTML = "الجهة المشرفة: " + license["supervisor"];
       firstRow.appendChild(firstRowData1);
+		// Set color to purple
+		firstRowData1.style.color = 'purple';
+
+		// Set the background color to a light gray
+		firstRowData1.style.backgroundColor = '#e5e5e5';
+
+		// Set the height to 150px
+		firstRowData1.style.height = '50px';
+
 
       var firstRowData2 = document.createElement("td");
       firstRowData2.innerHTML = "الخدمة: " + license["service"];
       firstRow.appendChild(firstRowData2);
 
       table.appendChild(firstRow);
+		// Set the background color to a light gray
+		firstRowData2.style.backgroundColor = '#e5e5e569';
+
+		// Set the height to 150px
+		firstRowData2.style.height = '50px';
 
       var secondRow = document.createElement("tr");
 
       var secondRowData1 = document.createElement("td");
       secondRowData1.innerHTML = "تاريخ البداية: " + license["startDate"];
       secondRow.appendChild(secondRowData1);
+	  		// Set the background color to a light gray
+		secondRowData1.style.backgroundColor = '#e5e5e569';
+
+		// Set the height to 150px
+		secondRowData1.style.height = '50px';
 
       var secondRowData2 = document.createElement("td");
       secondRowData2.innerHTML = "تاريخ النهاية: " + license["endDate"];
       secondRow.appendChild(secondRowData2);
 
       table.appendChild(secondRow);
+
+	  		// Set the background color to a light gray
+		secondRowData2.style.backgroundColor = '#e5e5e5';
+
+		// Set the height to 150px
+		secondRowData2.style.height = '50px';
 
       var thirdRow = document.createElement("tr");
 
@@ -124,6 +149,8 @@ window.onload = function() {
       thirdRow.appendChild(thirdRowData1);
 
       table.appendChild(thirdRow);
+	  	  		// Set the background color to a light gray
+		thirdRowData1.style.backgroundColor = 'rgb(167, 227, 245)';
 
       var fourthRow = document.createElement("tr");
 
@@ -134,6 +161,8 @@ window.onload = function() {
       fourthRow.appendChild(fourthRowData1);
 
       table.appendChild(fourthRow);
+
+
 
       licenses.appendChild(table);
     });
